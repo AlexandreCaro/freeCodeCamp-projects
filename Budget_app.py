@@ -185,11 +185,6 @@ def create_spend_chart(categories):
         
     return string
 
-    
-    #Il faut créer trois listes de même taille pour toutes les catégories qu'on pourra
-    #appeler dict_name contenant les trois noms des catégories et itérer sur ces listes.
-
-
 food = Category("Food")
 food.deposit(1000, "initial deposit")
 food.withdraw(10.15, "groceries")
@@ -206,17 +201,3 @@ print(food)
 print(clothing)
 print(auto)
 print(create_spend_chart([food, clothing, auto]))
-
-str(food) #La méthode str(food) ne renvoie rien donc c'est cela qui cause l'erreur
-#sur test_to_string. Il faut voir comment cette commande peut renvoyer la même chose que print(food)
-food
-
-"""
-def test_to_string():
-        food.deposit(900, "deposit")
-        food.withdraw(45.67, "milk, cereal, eggs, bacon, bread")
-        #food.transfer(20, entertainment)
-        actual = str(food)
-        expected = f"*************Food*************\ndeposit                 900.00\nmilk, cereal, eggs, bac -45.67\nTransfer to Entertainme -20.00\nTotal: 834.33"
-        #assertEqual(actual, expected, 'Expected different string representation of object.')
-"""
