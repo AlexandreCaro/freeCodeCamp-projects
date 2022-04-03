@@ -1,5 +1,7 @@
 # freeCodeCamp-projects
 
+Here you will find the description of the projects as they were stated in the freeCodeCamp website, to help you visualize the goal of the code that I built.
+
 # arithmetic_arranger.py
 
 Students in primary school often arrange arithmetic problems vertically to make them easier to solve. For example, "235 + 52" becomes:
@@ -41,7 +43,7 @@ Numbers should be right-aligned.
 There should be four spaces between each problem.
 There should be dashes at the bottom of each problem. The dashes should run along the entire length of each problem individually. (The example above shows what this should look like.)
 
-# Tme_Formatter.py
+# Time_Formatter.py
 
 Write a function named add_time that takes in two required parameters and one optional parameter:
 
